@@ -1,0 +1,5 @@
+# prefix file 01
+
+name = input("What is your name? ")
+module = "COMP1811"
+print("Hello " + name + " - welcome to " + module)
