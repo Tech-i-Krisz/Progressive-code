@@ -1,5 +1,43 @@
-# prefix file 01
+# [NOTE: Each section was typed in seperate file]
+# Everyone's first step into coding
+
+print("Hello World!")
+print("Hello GitHub!")
+
+# Understanding variables
 
 name = input("What is your name? ")
 module = "COMP1811"
 print("Hello " + name + " - welcome to " + module)
+
+# Practice with variables
+
+first_name = input("What is your first name? ")
+last_name = input("What is your last name? ")
+
+print("Hello " + first_name + " " + last_name)
+
+print("Hello", first_name, last_name)
+
+# Implementing operators
+
+name = input("What is your name? ")
+age = input("What is your age? ")
+numerical_age = int(age)
+year = 2019
+year_of_birth = year - numerical_age
+print("Hello", age, "year old", name)
+print("You were born in", str(year_of_birth))
+
+# Understanding data types - int
+
+number1_str = input(" First number: ")
+number2_str = input("Second number: ")
+number1 = int(number1_str)
+number2 = int(number2_str)
+"""
+combination = number1 + number2        <-- This is the original addition code
+"""
+combination = number1 * number2
+combination_str = str(combination)
+print("Answer:", combination_str)
