@@ -1,0 +1,12 @@
+# Understanding Loops
+i = 0
+print("while loop results:")
+while i < 10:
+    print(i)
+    i += 1
+
+print("for loop results:")
+for i in range(10):
+    print(i)
+
+# Practice with Loops
