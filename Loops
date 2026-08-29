@@ -1,4 +1,5 @@
 # Understanding Loops
+
 i = 0
 print("while loop results:")
 while i < 10:
@@ -10,6 +11,7 @@ for i in range(10):
     print(i)
 
 # Practice with Loops - mini guessing game
+
 import random
 
 randomNum = random.randint(1, 10)
