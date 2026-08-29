@@ -9,4 +9,13 @@ print("for loop results:")
 for i in range(10):
     print(i)
 
-# Practice with Loops
+# Practice with Loops - mini guessing game
+import random
+
+randomNum = random.randint(1, 10)
+print(randomNum)
+guessing_num = input("Please guess the number from 1 to 10:")
+
+while guessing_num != randomNum:
+    print("Wrong number! Guess again")
+    guessing_num = input("Try again:")
