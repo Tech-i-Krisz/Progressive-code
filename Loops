@@ -1,4 +1,4 @@
-# Understanding Loops
+# Understanding Loops in Python
 
 i = 0
 print("while loop results:")
