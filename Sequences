@@ -1,4 +1,4 @@
-# Practicing lists
+# Practicing list
 
 numbers = [5, 7, 11, 13, 17, 19, 29, 31]
 print(numbers)
